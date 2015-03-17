@@ -1,54 +1,18 @@
-<!Doctype html>
-<html>
-  <head>
-  <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
-  <style type="text/css">
-a:link {
-  color:#7D1717;
-  text-decoration:underline;
-}
-a:visited {
-  color:#7D1717;
-}
+---
+layout: default
+---
 
-#container {
-  margin-left:auto;
-  margin-right:auto;
-  width:750px;
-}
-p {
-  font-family: 'Josefin Slab', serif;
-}
-h1{
-   font-family: 'Josefin Slab', serif;
-}
-h4{
-  font-family: 'Josefin Slab', serif;
-}
-</style>
-    <title>Edwin Chalumeau</title>
-  </head>
-  <body>
-  <div id="container">
-    <h1>Edwin Chalumeau.</h1>
-    <h4>[<a href="http://challyed.github.io/" > Home</a>	|	<a href="http://challyed.github.io/experience.html"> Experience</a> ]</h4>
-    <h4>Home</h4>
-    <p>
-      Hi. I have a great interest in new technologies. For the summer of 2014, I have decided to become hirable. 
-    </p>
-    <p>I am a recent graduate of Syracuse University with a BS in Information Management and Technology. During my college career, I have served as an Information Management & Systems Intern for Oxfam America, acted as a teaching assistant for a computer networking class, and acted as a cabinet member for Alpha Phi Omega Phi Chapter.  
-    </p>
-    <p>For high school, I attend Prospect Hill Academy Charter School in Cambridge, Ma. As a high school student, I had an internship at MIT,<a href="http://www.prospecthillacademy.org/support/junior-journey/what-is-the-junior-journey/index.aspx">taught elementary English to fourth graders in Antigua, Guatemala</a>, and attend an aboard program called <a href="https://www.cityterm.org/">Cityterm. </a> 
-      
-    </p>
-    <h4>A Bit of CityTerm</h4>
-    <iframe src="//player.vimeo.com/video/7584782?color=ff0179" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    <h4>A Bit of Junior Journey</h4>
-    <iframe src="//player.vimeo.com/video/5878994?color=ff0179" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    <p>Want to contact me?</p>
-    <p>If you are ever in the Boston area, we could grab coffee. You can email me at edwinchalumeau@outlook.com. </p>
-    
-  <a href="https://github.com/challyed"><img src="http://i.imgur.com/ud8f1Dy.png"/></a><a href="https://twitter.com/Challyed"><img src="http://i.imgur.com/E54Nnqd.png"/></a><a href="https://www.linkedin.com/in/edwinchalumeau"><img src="http://i.imgur.com/q1XJrI1.png"/></a>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-  </body>
-</html>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
