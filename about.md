@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a recent graduate of Syracuse University with a BS in Information Management and Technology. During my college career, I have served as an Information Management & Systems Intern for Oxfam America, acted as a teaching assistant for a computer networking class, and acted as a cabinet member for Alpha Phi Omega Phi Chapter.  
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:edwinchalumeau@outlook.com)
