@@ -7,7 +7,7 @@ permalink: /about/
 
 I am a recent graduate of Syracuse University with a BS in Information Management and Technology. During my college career, I have served as an Information Management & Systems Intern for Oxfam America, acted as a teaching assistant for a computer networking class, and acted as a cabinet member for Alpha Phi Omega Phi Chapter.  
 
-### Projects
+### Experience
 
 ####Oxfam America
 Oxfam America is a non profit organization that focues on righting the wrongs of proverty and hunger. An IT Intern provides users guidance and first level support by assisting with troubleshooting incidents and fulfills requests of Oxfam America end users, as well as researching and recommending best practices for global Help Desk service management.
