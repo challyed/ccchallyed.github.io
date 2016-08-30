@@ -9,7 +9,9 @@ I am a recent graduate of Syracuse University with a BS in Information Managemen
 
 ### Experience
 
-####Oxfam America
+#### Oxfam America- Information Systems Coordinator 
+
+####Oxfam America- Intern
 Oxfam America is a non profit organization that focues on righting the wrongs of proverty and hunger. An IT Intern provides users guidance and first level support by assisting with troubleshooting incidents and fulfills requests of Oxfam America end users, as well as researching and recommending best practices for global Help Desk service management.
 
 ####Advance Computer Networking
